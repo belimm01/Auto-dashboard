@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Auto</title>
+    <link rel="stylesheet" href="css/dashboardStyle.css">
+</head>
+
+<body>
+
+<div class="bot speed round" id="start" style="left: 40%">Start</div>
+<div class="bot brake round" id="stop" style="left: 60%">Stop</div>
+
+<div class="button" id="LIB" style=" transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);position: absolute; left: 45%; top: 95%;">Left
+</div>
+<div class="button" id="RIB" style=" transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);position: absolute; left: 55%;top: 95%;">Right
+</div>
+
+<div class="top indicator-move-left" id="leftIndicator" style="left: 40%"><img src="resources/black-arrow-left.svg">
+</div>
+<div class="top indicator-move-right" id="rightIndicator" style="left: 60%"><img src="resources/black-arrow-right.svg">
+</div>
+
+<select id="selectid">
+    <option value="1" id="1">1</option>
+    <option value="2" id="2">2</option>
+    <option value="3" id="3">3</option>
+    <option value="4" id="4">4</option>
+    <option value="5" id="5">5</option>
+    <option value="6" id="6">6</option>
+    <option value="R" id="R">R</option>
+</select>
+
+
+<div class="center topB round boardB">
+    <div class="center topB "></div>
+    <div class="center">
+        <div class="center top pointer">
+            <div class=" center round knot"></div>
+            <div class=" center armB" id="arm3"></div>
+        </div>
+    </div>
+</div>
+
+<div class="center-right round board">
+    <div class="center-right red-bar"></div>
+    <div class="center">
+        <div class="center-right pointer">
+            <div class=" center round knot"></div>
+            <div class=" center arm" id="arm1"></div>
+        </div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="center numbers">
+            <div class="num center">0</div>
+            <div class="num center">20</div>
+            <div class="num center">40</div>
+            <div class="num center">60</div>
+            <div class="num center">80</div>
+            <div class="num center">100</div>
+            <div class="num center">120</div>
+            <div class="num center">140</div>
+            <div class="num center">160</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="center" id="tv">
+    <div class="" id="data" style="color: black; position: absolute; top: 10%; left: 5%;"></div>
+    <div class="center" id="panel" style="color: black;"></div>
+    <div class="box bot" id="mileage">0</div>
+</div>
+
+<div class="center-left round board">
+    <div class="center-left red-bar1"></div>
+
+    <div class="center">
+        <div class="center-left pointer">
+            <div class=" center round knot"></div>
+            <div class=" center arm" id="arm2"></div>
+        </div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+        <div class="bar center"></div>
+
+    </div>
+    <div class="center numbers">
+        <div class="num center">0</div>
+        <div class="num center">1</div>
+        <div class="num center">2</div>
+        <div class="num center">3</div>
+        <div class="num center">4</div>
+        <div class="num center">5</div>
+        <div class="num center">6</div>
+        <div class="num center">7</div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/Speedometer.js"></script>
+
+</body>
+</html>
